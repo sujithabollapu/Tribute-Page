@@ -1,0 +1,68 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: pink;
+    margin:0;
+    padding:0;
+    color:#000;
+}
+header{
+    background-color:blueviolet;
+    text-align: center;
+}
+h1{
+    color:wheat;
+    padding:10px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Content{
+    margin:0 auto;
+    padding:10px;
+}
+.biography{
+    background-color: #ffffff;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.biography h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.Achievements{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+.Achievements h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.Achievements h4{
+    font-size: 25px;
+}
+.Achievements ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+/* This style is applied when you hover your mouse over a list item inside the .Achievements section */
+.Achievements li:hover{
+    color:blueviolet;
+    transform: scale(1.02);
+    transition: 0.25 ease-in-out;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #006400;
+    color: #fff;
+    width: 100%;
+    bottom:0;
+}
